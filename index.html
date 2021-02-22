@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>hls player| DVDMS-621 </title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+
+<body>
+    <div id="movie" align="center">
+        <video id="video"  width=80% height="500" controls poster="https://cdn.jsdelivr.net/gh/ghcdn/DVDMS-621/pic0.jpg"></video>
+        <p>DVDMS-621 巨乳の姉とセックスしたい…弟の歪んだ欲望を告白された姉が葛藤の末に受け入れた近親相姦 さつき芽衣</p>
+        <script>
+        var video = document.getElementById('video');
+        var videoSrc = 'https://cdn.jsdelivr.net/gh/ghcdn/DVDMS-621/res/index.m3u8';
+        if (Hls.isSupported()) {
+            var hls = new Hls();
+            hls.loadSource(videoSrc);
+            hls.attachMedia(video);
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = videoSrc;
+        }
+        </script>
+    </div>
+</body>
+
+</html>
