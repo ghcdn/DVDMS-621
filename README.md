@@ -26,7 +26,7 @@
 
 
 さつき芽衣
-![](./pic0.jpg)
+![](./img/pic0.jpg)
 ![](./pic1.jpg)
 ![](./pic2.jpg)
 ![](./pic3.jpg)
